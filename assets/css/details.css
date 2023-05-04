@@ -1,0 +1,68 @@
+.details {
+    margin: 0;
+    padding: 0;
+
+    height: 80vh;
+    width: 50vw;
+    bottom: 0;
+    left: 25vw;
+    position: fixed;
+
+    border-radius: 0;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+
+    visibility: hidden;
+}
+
+.details .content {
+    margin: 0;
+    padding: 0;
+
+    height: 90%;
+    width: 100%;
+    
+    border-radius: 0;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+
+    color: white;
+    background-color: transparent;
+}
+
+.details .content h2 {
+    margin: 0;
+    top: 2%;
+    left: 1em;
+    
+    position: absolute;
+}
+
+.details .content img {
+    height: 250px;
+    width: 100%;
+    top: 5%;
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%);
+}
+
+.details .content p {
+    margin: 0;
+    top: 70%;
+    left: 10%;
+    position: absolute;
+}
+
+.details button {
+    color: white;
+    background-color: transparent;
+    border: none;
+
+    position: absolute;
+    bottom: 1em;
+    left: 50%;
+    transform: translateX(-50%);
+
+    cursor: pointer;
+}
